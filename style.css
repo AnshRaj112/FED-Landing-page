@@ -120,8 +120,10 @@ background: linear-gradient(180deg, rgba(255,96,0,1) 26%, rgba(0,0,0,1) 100%, rg
 
 #newUsername, #newEmail, #newPassword{
     background-color: white;
+    display: flex;
+    align-items: center;
     color: black;
-    margin-left: 150px;
+    
     width: 250px;
 }
 
@@ -419,7 +421,7 @@ text-align: center;
 }
 
 .nav-item{
-    font-family: Poppins;
+font-family: Poppins;
 font-size: 20px;
 font-weight: 500;
 line-height: 30px;
@@ -428,7 +430,7 @@ text-align: left;
 }
 
 .text-center{
-    font-family: Roboto;
+font-family: Roboto;
 font-size: 20px;
 font-weight: 400;
 line-height: 30px;
@@ -491,6 +493,8 @@ text-align: center;
 
 #newUsername, #newEmail, #newPassword{
     background-color: white;
+    display: flex;
+    align-items: center;
     color: black;    
     width: auto;
 }
@@ -564,6 +568,8 @@ text-align: center;
     
     #newUsername, #newEmail, #newPassword{
         background-color: white;
+        display: flex;
+        align-items: center;
         color: black;    
         width: auto;
     }
@@ -591,6 +597,8 @@ text-align: center;
     }
     
     #newUsername, #newEmail, #newPassword{
+        display: flex;
+        align-items: center;
         background-color: white;
         color: black;    
         width: auto;
