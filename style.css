@@ -109,6 +109,21 @@ background: linear-gradient(180deg, rgba(255,96,0,1) 26%, rgba(0,0,0,1) 100%, rg
         z-index: 1000;
     
 }
+#username, #password{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    color: black;
+    
+    width: 250px;
+}
+
+#newUsername, #newEmail, #newPassword{
+    background-color: white;
+    color: black;
+    margin-left: 150px;
+    width: 250px;
+}
 
 .Hello{
     text-align: center;
@@ -119,26 +134,7 @@ line-height: 54px;
 letter-spacing: 0em;
 }
 
-#username{
-    background-color: white;
-    color: black;
-    margin-left: 150px;
-    width: 250px;
-}
 
-#password{
-    background-color: white;
-    color: black;
-    margin-left: 150px;
-    width: 250px;
-}
-
-#newUsername, #newEmail, #newPassword{
-    background-color: white;
-    color: black;
-    margin-left: 150px;
-    width: 250px;
-}
 
 
 .google{
@@ -484,6 +480,21 @@ text-align: center;
         transform: translate(-50%, -50%);
     }
 
+
+#username, #password{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    color: black;    
+    width: auto;
+}
+
+#newUsername, #newEmail, #newPassword{
+    background-color: white;
+    color: black;    
+    width: auto;
+}
+
     .display-5 {
         font-size: 1.8rem;
         font-family: Poppins;
@@ -520,6 +531,10 @@ text-align: center;
         font-size: 1rem;
     }
 
+    #google, #facebook, #apple{
+        width: auto;
+    }
+
     .connect-button {
         width: 150px;
         height: 50px;
@@ -539,6 +554,23 @@ text-align: center;
         height: 60px; /* Adjust the height as needed */
     }
 
+    #username, #password{
+        background-color: white;
+        display: flex;
+        align-items: center;
+        color: black;    
+        width: auto;
+    }
+    
+    #newUsername, #newEmail, #newPassword{
+        background-color: white;
+        color: black;    
+        width: auto;
+    }
+    #google, #facebook, #apple{
+        width: auto;
+    }
+
     .p-5 {
         font-size: 14px; /* Adjust the font size as needed */
     }
@@ -548,6 +580,24 @@ text-align: center;
     .social-icons {
       flex-direction: column;
       align-items: center;
+    }
+
+    #username, #password{
+        background-color: white;
+        display: flex;
+        align-items: center;
+        color: black;    
+        width: auto;
+    }
+    
+    #newUsername, #newEmail, #newPassword{
+        background-color: white;
+        color: black;    
+        width: auto;
+    }
+
+    #google, #facebook, #apple{
+        width: auto;
     }
 
     .social-icons > div {
