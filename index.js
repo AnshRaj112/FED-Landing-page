@@ -20,44 +20,12 @@ function openCreateAccountBox() {
     document.getElementById('createAccountBox').style.display = 'block';
 }
 
-
-
-
-// Function to open the Create Account box
-function openCreateAccountBox() {
-    document.getElementById('landingPage').style.display = 'none';
-    document.getElementById('signinBox').style.display = 'none';
-    document.getElementById('createAccountBox').style.display = 'block';
-}
-
 // Function to close the Sign In or Create Account box
 function closeSignInBox() {
     document.getElementById('landingPage').style.display = 'block';
     document.getElementById('signinBox').style.display = 'none';
     document.getElementById('createAccountBox').style.display = 'none';
 }
-
-// Function to show the Sign In box
-function showSignInBox() {
-    document.getElementById('landingPage').style.display = 'none';
-    document.getElementById('signinBox').style.display = 'block';
-    document.getElementById('createAccountBox').style.display = 'none';
-}
-
-// Function to show the Create Account box
-function showCreateAccountBox() {
-    document.getElementById('landingPage').style.display = 'none';
-    document.getElementById('signinBox').style.display = 'none';
-    document.getElementById('createAccountBox').style.display = 'block';
-}
-
-// Function to close the Sign In or Create Account box
-function closeSignInBox() {
-    document.getElementById('landingPage').style.display = 'block';
-    document.getElementById('signinBox').style.display = 'none';
-    document.getElementById('createAccountBox').style.display = 'none';
-}
-
 
 function signIn(event) {
     
